@@ -14,5 +14,3 @@ function App() {
 
 export default App;
 
-
-// https://pm1.narvii.com/6834/ca19888380f246d78f14871eb1aeea75e07aafddv2_hq.jpg

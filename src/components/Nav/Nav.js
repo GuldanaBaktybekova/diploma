@@ -1,21 +1,30 @@
+import "./Nav.css";
 function Nav() {
-  return ( 
+  return (
     <nav className="Nav">
-    <div>All the most fashionable</div>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Categories</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Products</a></li>
-      <li><a href="#">Contacts</a></li>
-      <li><a href="/">Home</a></li>
-      <li><a href="/">Categories</a></li>
-      <li><a href="/">About</a></li>
-      <li><a href="/">Products</a></li>
-      <li><a href="/">Contacts</a></li>
-    </ul>
-  </nav>
-   );
+      <div> Beauty & Fashion</div>
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">New products</a>
+        </li>
+        <li>
+          <a href="#">Men</a>
+        </li>
+        <li>
+          <a href="#">Women</a>
+        </li>
+        <li>
+          <a href="#">Sport</a>
+        </li>
+        <li>
+          <a href="#">Discounts</a>
+        </li>
+      </ul>
+    </nav>
+  );
 }
 
 export default Nav;
