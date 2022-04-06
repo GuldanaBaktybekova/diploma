@@ -5,22 +5,22 @@ function Nav() {
       <div> Beauty & Fashion</div>
       <ul>
         <li>
-          <a href="https://www.google.com/">Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
-          <a href="https://www.google.com/">New</a>
+          <a href="/">New</a>
         </li>
         <li>
-          <a href="https://www.google.com/">Men</a>
+          <a href="/">Men</a>
         </li>
         <li>
-          <a href="https://www.google.com/">Women</a>
+          <a href="/">Women</a>
         </li>
         <li>
-          <a href="https://www.google.com/">Sport</a>
+          <a href="/">Sport</a>
         </li>
         <li>
-          <a href="https://www.google.com/">Discounts</a>
+          <a href="/">Discounts</a>
         </li>
       </ul>
     </nav>
