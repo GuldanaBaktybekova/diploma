@@ -2,7 +2,7 @@ import "./Nav.css";
 function Nav() {
   return (
     <nav className="Nav">
-      <div> Beauty & Fashion</div>
+      <div className="Logo"> Beauty & Fashion</div>
       <ul>
         <li>
           <a href="/">Home</a>
