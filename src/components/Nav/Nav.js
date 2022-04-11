@@ -1,28 +1,17 @@
 import "./Nav.css";
 import Logo from "../ui/Logo/Logo";
+import NavItem from "./NavItem/NavItem";
 function Nav() {
   return (
     <nav className="Nav">
       <Logo/>
       <ul>
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <a href="/">New</a>
-        </li>
-        <li>
-          <a href="/">Men</a>
-        </li>
-        <li>
-          <a href="/">Women</a>
-        </li>
-        <li>
-          <a href="/">Sport</a>
-        </li>
-        <li>
-          <a href="/">Discounts</a>
-        </li>
+        <NavItem url="/">Home</NavItem>
+        <NavItem url="/">New</NavItem>
+        <NavItem url="/">Men</NavItem>
+        <NavItem url="/">Women</NavItem>
+        <NavItem url="/">Sport</NavItem>
+        <NavItem url="/">Discounts</NavItem>
       </ul>
     </nav>
   );
