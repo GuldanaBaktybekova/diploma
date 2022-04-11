@@ -1,8 +1,9 @@
 import "./Nav.css";
+import Logo from "../ui/Logo/Logo";
 function Nav() {
   return (
     <nav className="Nav">
-      <div className="Logo"> Beauty & Fashion</div>
+      <Logo/>
       <ul>
         <li>
           <a href="/">Home</a>
