@@ -7,6 +7,7 @@ import Men from "./pages/Men";
 import Women from "./pages/Women";
 import Sport from "./pages/Sport";
 import Discounts from "./pages/Discounts";
+import { Route, Routes } from "react-router-dom";
 
 
 function App() {
@@ -14,12 +15,14 @@ function App() {
     <div className="App">
      <Nav />
      <Header/>
-     <Home/>
-     <New/>
-     <Men/>
-     <Women/>
-     <Sport/>
-     <Discounts/>
+     <Routes>
+       <Route path="/"element={<Home />}/>
+       <Route path="/new" element={<New />}/>
+       <Route path="/men"element={<Men />}/>
+       <Route path="/women"element={<Women />}/>
+       <Route path="/sport"element={<Sport />}/>
+       <Route path="/discounts"element={<Discounts />}/>
+     </Routes>
 
      <Footer/>
     </div>

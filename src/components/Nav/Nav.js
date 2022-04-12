@@ -7,11 +7,11 @@ function Nav() {
       <Logo/>
       <ul>
         <NavItem url="/">Home</NavItem>
-        <NavItem url="/">New</NavItem>
-        <NavItem url="/">Men</NavItem>
-        <NavItem url="/">Women</NavItem>
-        <NavItem url="/">Sport</NavItem>
-        <NavItem url="/">Discounts</NavItem>
+        <NavItem url="/new">New</NavItem>
+        <NavItem url="/men">Men</NavItem>
+        <NavItem url="/women">Women</NavItem>
+        <NavItem url="/sport">Sport</NavItem>
+        <NavItem url="/discounts">Discounts</NavItem>
       </ul>
     </nav>
   );
