@@ -1,3 +1,4 @@
+import "./Women.css";
 function Women() {
   return (
     <article>

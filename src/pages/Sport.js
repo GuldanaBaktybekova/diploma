@@ -1,3 +1,4 @@
+import "./Sport.css";
 function Sport() {
   return (
     <article>

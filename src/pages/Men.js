@@ -1,3 +1,4 @@
+import "./Men.css";
 function Men() {
   return (
     <article>

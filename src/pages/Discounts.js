@@ -1,3 +1,4 @@
+import "./Discounts.css";
 function Discounts() {
   return (
     <article>
