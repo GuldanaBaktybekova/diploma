@@ -6,7 +6,7 @@ function Header() {
     backgroundImage: `url(${headerImage})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
-    height: "100vh",
+    height: "50vh",
   };
 
   return (
