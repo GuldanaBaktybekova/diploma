@@ -1,9 +1,12 @@
 import "./Header.css";
-import headerImage from "../../assets/header.jpg";
+import headerImage from "../../assets/header-clothes.jpg";
 
 function Header() {
   const style = {
     backgroundImage: `url(${headerImage})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    height: "100vh",
   };
 
   return (

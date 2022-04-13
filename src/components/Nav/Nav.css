@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(113, 158, 214);
+  background-color: 											#9E9764;
   color: white;
  
 }
@@ -13,3 +13,4 @@
   margin: 0;
   display: flex;
 }
+/* #9E9764 */
