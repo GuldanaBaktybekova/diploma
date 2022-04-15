@@ -1,5 +1,5 @@
 .Header {
-  font-family: 'EB Garamond', serif;
+
   min-height: 50vh;
   background-color: aliceblue;
   display: flex;
@@ -14,7 +14,7 @@
 }
 .Header h1 {
   margin: 25px;
-
+  font-family: 'Abril Fatface', cursive;
   font-weight: 550;
 
   font-size: 40px;
