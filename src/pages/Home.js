@@ -1,12 +1,12 @@
 import "./Home.css";
+import "./pages.css";
 function Home() {
   return (
-    <article>
+    <article className="Home">
       <h1>This is home page</h1>
       <p>
         
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, culpa
-        est.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quia adipisci nisi, dignissimos error amet aliquam ipsam omnis. Aut temporibus accusantium fugit porro saepe quaerat, impedit eos incidunt aliquid. Explicabo!
       </p>
     </article>
   );
