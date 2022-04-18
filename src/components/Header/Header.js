@@ -1,18 +1,24 @@
 import "./Header.css";
-import headerImage from "../../assets/header-clothes.jpg";
+import headerImage from "../../assets/models4.jpg";
+
 
 function Header() {
   const style = {
-    backgroundImage: `url(${headerImage})`,
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    height: "50vh",
+    backgroundImage: `url(${headerImage})`
   };
 
+function Header({ image, title, children }) {
   return (
     <header className="Header" style={style}>
-      <h1>All the most fashionable</h1>
-      <p>This is an online fashion store</p>
+      <h1>The most fresh coffee beans</h1>
+      <p>This is an internet shop</p>
+ 
+    <header className="Header">
+      <img src={image} />
+      <section>
+        <h1>{title}</h1>
+        <p>{children}</p>
+      </section>
     </header>
   );
 }
