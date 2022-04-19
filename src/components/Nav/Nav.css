@@ -1,20 +1,18 @@
 .Nav {
-  background-color: rgb(63, 29, 5);
+  background-color:  #9E9764 ;
   color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
 .Nav .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(63, 29, 5);
-  color: white;
 }
 .Nav ul {
   list-style: none;
-  padding: 0 1.5rem;
   padding: 0;
   margin: 0;
   display: flex;
-} 
+}
 
 /* #9E9764 */

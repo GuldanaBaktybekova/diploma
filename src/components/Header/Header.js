@@ -1,5 +1,5 @@
 import "./Header.css";
-import headerImage from "../../assets/models4.jpg";
+import headerImage from "../../assets/header.jpg";
 
 
 function Header({ image, title, children }) {
