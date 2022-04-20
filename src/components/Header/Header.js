@@ -1,12 +1,11 @@
-import classes from "./Header.module.css"
-import headerImage from "../../assets/header.jpg";
+import "./Header.css"
 
 
 function Header({ image, title, children }) {
 
   return (
     <>
-      <header className={classes.Header}>
+      <header className="Header">
         <img src={image} />
         <section>
           <h1>{title}</h1>
