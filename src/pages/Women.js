@@ -12,7 +12,7 @@ function Women() {
   </article>
  
     <Header
-      title="!"
+      title=""
       image={headerImage}>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex pariatur voluptatum doloribus enim repudiandae ullam sequi quo suscipit voluptas id, laboriosam necessitatibus, dolore corrupti. Explicabo iure doloribus illum repudiandae tenetur.
     </Header>

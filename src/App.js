@@ -1,6 +1,6 @@
-import Nav from "./components/Nav/Nav";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
+// import Nav from "./components/Nav/Nav";
+// import Header from "./components/Header/Header";
+// import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home";
 
 import Men from "./pages/Men";
@@ -12,10 +12,10 @@ import Layout from "./components/Layout/Layout";
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <Header />
+    
+  
 
-      <Footer />
+  
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
