@@ -1,15 +1,12 @@
-import "./Header.css";
+import classes from "./Header.module.css"
 import headerImage from "../../assets/header.jpg";
 
 
 function Header({ image, title, children }) {
-  const style = {
-    backgroundImage: `url(${headerImage})`
-  };
 
   return (
     <>
-      <header className="Header">
+      <header className={classes.Header}>
         <img src={image} />
         <section>
           <h1>{title}</h1>
