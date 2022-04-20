@@ -6,15 +6,7 @@ import headerImage from "../assets/home.jpg";
 function Home() {
   return (
     <>
-      <article>
-        <h1>This is home page.</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex pariatur
-          voluptatum doloribus enim repudiandae ullam sequi quo suscipit
-          voluptas id, laboriosam necessitatibus, dolore corrupti. Explicabo
-          iure doloribus illum repudiandae tenetur.
-        </p>
-      </article>
+  
 
       <Header
         title="Welcome to our fashion clothing store!"
