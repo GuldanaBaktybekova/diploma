@@ -1,4 +1,4 @@
-import "./Home.css";
+
 import "./pages.css";
 
 import Header from "../components/Header/Header";

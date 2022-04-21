@@ -1,3 +1,4 @@
+import MenItem from "./MenItem/MenItem";
 function MenProductList({mens}) {
   const men = {};
   return ( 

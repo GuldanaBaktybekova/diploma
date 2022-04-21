@@ -1,4 +1,4 @@
-import "./Sport.css";
+
 import "./pages.css";
 import Header from "../components/Header/Header";
 import headerImage from "../assets/sport.jpg";
