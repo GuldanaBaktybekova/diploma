@@ -1,11 +1,16 @@
-import MenItem from "./MenItem/MenItem";
-function MenProductList({mens}) {
-  const men = {};
-  return ( 
-    <div className="MenProductList">
-      <MenItem men={men}/>
+import { Link } from "react-router-dom";
+import classes from "./MenItem.module.css";
+
+function MenItem({ men }) {
+  return (
+    <div className={classes.MenItem}>
+      <img src={men.image} />
+      <div>
+        <Link to={men.path}>{men.title}</Link>
+        <div className={classes.price}>${men.price}</div>
+      </div>
     </div>
-   );
+  );
 }
 
-export default MenProductList;
+export default MenItem; 
